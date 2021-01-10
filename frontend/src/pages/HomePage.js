@@ -1,13 +1,10 @@
 import React from 'react';
+import AboutSection from '../components/AboutSection';
 
 const HomePage = () => {
     return (
         <div>
-            <div className="description">
-                <div className="title">
-                    Qutefit
-                </div>
-            </div>
+            <AboutSection />
         </div>
     )
 }
